@@ -14,7 +14,7 @@ export default function Footer() {
   return (
     <footer className="relative overflow-hidden font-[myFont] ">
       {/* Reversed gradient background – dark at top, fades to light */}
-      <div className="absolute inset-0 -z-10 bg-gradient-to-b from-amber-50 via-sky-50 to-white" />
+      <div className="absolute inset-0 -z-10 bg-gradient-to-b from-amber-50 via-sky-50 to-sky-100" />
 
       {/* Optional subtle top accent */}
       <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-sky-400/20 to-transparent" />

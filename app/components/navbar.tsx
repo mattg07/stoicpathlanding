@@ -92,13 +92,13 @@ export default function Navbar() {
       opacity-0 animate-fadeInSlow
     "
         >
-          <a
-            href="#home"
+          <Link
+            href="/"
             onClick={() => setOpen(false)}
             className="text-[#202020]  hover:text-gray-500"
           >
             Home
-          </a>
+          </Link>
           <button
             onClick={() => scrollToSection("faq")}
             className="text-[#202020] hover:text-gray-500 transition cursor-pointer"
