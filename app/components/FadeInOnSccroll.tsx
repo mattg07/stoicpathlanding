@@ -1,7 +1,14 @@
 "use client";
-import { useEffect, useRef, useState } from "react";
+import { ReactNode, useEffect, useRef, useState } from "react";
+interface FadeInWhenVisibleProps {
+  children: ReactNode;
+  delay?: number;
+}
 
-export default function FadeInWhenVisible({ children, delay = 5 }) {
+export default function FadeInWhenVisible({
+  children,
+  delay = 5,
+}: FadeInWhenVisibleProps) {
   const ref = useRef(null);
   const [isVisible, setIsVisible] = useState(false);
 
