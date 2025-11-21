@@ -6,7 +6,7 @@ import ToolsCarousel from "./components/ToolsCarousel";
 
 export default function Home() {
   return (
-    <main className="pt-40  text-cente0r max-w-full">
+    <main className="pt-36 relative  text-center max-w-full">
       {/* Background */}
       <div className="absolute inset-0  -z-10 bg-gradient-to-b from-sky-100 via-green-100 to-white " />
       <div className="flex flex-col md:flex-row items-center justify-center gap-16 md:gap-20 w-full max-w-7xl mx-auto px-2 pb-48">

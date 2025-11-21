@@ -38,9 +38,9 @@ export default function Navbar() {
 
         {/* Desktop Links */}
         <div className="hidden md:flex items-center gap-8 text-sm text-[#202020] font-[Poppins]">
-          <a href="#home" className="hover:text-gray-900">
+          <Link href="/" className="hover:text-gray-900">
             Home
-          </a>
+          </Link>
           <button
             onClick={() => scrollToSection("faq")}
             className="hover:text-[#6b5b62] transition cursor-pointer"

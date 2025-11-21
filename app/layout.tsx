@@ -17,31 +17,37 @@ const geistMono = Geist_Mono({
 
 
 
+
 export const metadata: Metadata = {
+  metadataBase: new URL("https://pathstoic.com"),
+
   title: "Path App",
   description: "A self improvement tracking app, with AI Insights.",
+
   openGraph: {
     title: "Path App",
     description: "A self improvement tracking app, with AI Insights.",
     url: "https://pathstoic.com",
     siteName: "Path App",
+    locale: "en_US",
+    type: "website",
     images: [
       {
-        url: "/pathSplash.png",
+        url: "/pathSplash.png", 
         width: 1200,
         height: 630,
       },
     ],
-    locale: "en_US",
-    type: "website",
   },
+
   twitter: {
     card: "summary_large_image",
     title: "Path App",
     description: "A self improvement tracking app, with AI Insights.",
-    images: ["/pathicon.png"],
+    images: ["/pathiCon.png"],
   },
 };
+
 
 export default function RootLayout({
   children,
